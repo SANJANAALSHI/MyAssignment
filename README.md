@@ -2,7 +2,7 @@ Assignment: Immunization App
 
 Langauge Used: JavaScript, HTML, CSS
 
-Framework used : AngularJS , bootstrap
+Framework used : AngularJS , Bootstrap
 
 Objective:
 
