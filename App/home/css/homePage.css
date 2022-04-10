@@ -1,0 +1,252 @@
+/*Navigation*/
+.nav-tabs {
+  margin-bottom: 1rem !important;
+  border-bottom: 2px solid #40a8c4 !important;
+}
+
+.tab-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-tabs .nav-item {
+  margin: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #40a8c4 !important;
+  font-weight: bold;
+  background-color: #F8F4F4 !important;
+  border: 2px solid #40a8c4 !important;
+  border-bottom: 0px !important;
+  border-top-left-radius: .25rem !important;
+  border-top-right-radius: .25rem !important;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-bottom: 0px !important;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -2px !important;
+}
+
+.nav-link {
+  background: #40a8c4 !important;
+  color: #fff !important;
+  font-weight: bold;
+  border-right: 1px solid #7d7d7d !important;
+  border-radius: 0px !important;
+  cursor: pointer;
+  padding: .5rem 0.7rem;
+}
+
+.nav-item:last-child {
+  margin-right: 10px;
+}
+/*Table*/
+.tab-heading {
+  margin-bottom: 0.75rem;
+  padding-left: 22px;
+  justify-content: start;
+  align-items: center;
+  color: #40a8c4;
+}
+
+#myImune {
+  width: 15px;
+  height: 15px;
+  transform: skew(-20deg);
+  background: #40a8c4;
+  margin-right: 10px;
+}
+
+.table-container {
+  overflow: auto;
+  margin-top: 1rem;
+  scrollbar-width: thin;
+}
+
+.table td, .table th {
+  padding: 0.5rem !important;
+}
+
+tbody {
+  background: #ffffff;
+}
+
+th {
+  background: #a6dcef;
+}
+
+th, td {
+  border-left: 1px solid #dee2e6;
+}
+/*Modal*/
+.modal-data {
+  border: 0px !important;
+}
+
+.modal-header {
+  background: #318fb5;
+  color: #ffffff;
+  padding: 0.5rem 1rem !important;
+}
+
+.modal-dialog {
+  max-width: 80vw !important;
+  width: 100%;
+}
+
+.modal-body {
+  font-size: 13px;
+  height: 70vh;
+  background: #F8F4F4;
+}
+
+.modal-title {
+  font-size: 14px;
+}
+
+.modal-footer {
+  background: #F8F4F4;
+  z-index: 1;
+}
+/*Button*/
+.btn {
+  padding: .2rem 1rem !important;
+  border: 1px solid #ced4da !important;
+}
+
+.btn-light {
+  background-color: #e8e8e8 !important;
+  padding: .2rem 1rem;
+}
+
+.btn-primary {
+  padding: .375rem .75rem !important;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.button-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-button {
+  display: flex !important;
+  margin-right: 3.5rem;
+  margin-left: auto;
+}
+
+.form-control {
+  padding: .275rem .75rem !important;
+  font-size: 14px !important;
+}
+
+.fs14 {
+  font-size: 14px !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/*Webkit*/
+::-webkit-scrollbar-thumb {
+  background: #cecece;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cecece;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cecece;
+}
+
+#success {
+  display: none;
+  color: green;
+  margin-top: 10px;
+}
+
+.sorting {
+  opacity: 0;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.opacity1 {
+  opacity: 1 !important;
+}
+
+th:hover .sortimg {
+  opacity: 1;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.page-no {
+  width: 25px;
+  text-align: center;
+  height: 22px;
+  margin: 0 5px;
+  outline: 0px;
+  border: 1px solid #ced4da !important;
+}
+
+.next-prev-button {
+  padding: .1rem 0.6rem !important;
+  border: 1px solid #ced4da !important;
+  outline: 0px;
+  border-radius: 5px;
+  padding-bottom: 3px !important;
+  cursor: pointer;
+}
+
+.width80 {
+  width: 80% !important;
+  margin-left: 10px;
+}
+
+.width-12 {
+  width: 12px;
+}
+/*Responsive*/
+@media only screen and (min-width: 1000px) and (max-width:1280px) {
+  .table-container {
+    overflow: auto;
+    height: 72%;
+  }
+}
+
+@media only screen and (min-width: 1281px) {
+  .table-container {
+    overflow: auto;
+    height: 80%;
+  }
+}
