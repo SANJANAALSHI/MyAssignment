@@ -1,4 +1,4 @@
-app.controller('homePageController', function($scope, $http, $timeout) {
+app.controller('homePageCtrl', function($scope, $http, $timeout) {
 
   let mainData = [];
   $scope.arrayOfSelectedIds = [];
