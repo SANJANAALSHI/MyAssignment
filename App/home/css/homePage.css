@@ -83,7 +83,7 @@ th, td {
   border-left: 1px solid #dee2e6;
 }
 /*Modal*/
-.modal-data {
+.modal-content {
   border: 0px !important;
 }
 
@@ -194,7 +194,7 @@ button:disabled {
   opacity: 1 !important;
 }
 
-th:hover .sortimg {
+th:hover .sorting {
   opacity: 1;
 }
 
